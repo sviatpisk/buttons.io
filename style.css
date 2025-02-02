@@ -1,0 +1,110 @@
+.btn{
+    text-decoration: none;
+    padding: 13px;
+    background: linear-gradient(45deg, #002bff, #7a00ff, #ff00c8, #ff0000);
+    border-radius: 7px;
+    font-family: sans-serif;
+    color: white;
+    margin: 1px;
+}
+body{
+    background-color: #171717;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.btp{
+    text-align: center;
+}
+td{
+    border: 1px solid white;
+}
+tr{
+    border: 1px solid white;
+}
+.poi{
+    color: #171717;
+}
+.cls{
+    color: #FCC37E;
+}
+.k{
+    color: #E3982B;
+}
+.btn2{
+    margin: 0;
+    background: linear-gradient(110deg, #ff0000, #ff7300, #D2C219, #12AD12, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 200%;
+    animation: gradient 3s ease infinite;
+    font-family: sans-serif;
+    color: white;
+    margin: 1px;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 7px;
+}
+@keyframes gradient{
+    0%{
+    background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.btn3{
+    margin: 0;
+    background: linear-gradient(110deg, #ff0000, #ff7300, #D2C219, #12AD12, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 200%;
+    font-family: sans-serif;
+    color: white;
+    margin: 1px;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+}
+.btn3:hover{
+    animation: gradient 3s ease infinite;
+}
+@keyframes gradient{
+    0%{
+    background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.btn4{
+    margin: 0;
+    background: linear-gradient(110deg, #8805A8, #660BAB, #4811AE, #3415B0, #1826B0, #1240AB);
+    background-size: 200%;
+    font-family: sans-serif;
+    color: white;
+    margin: 1px;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 7px;
+    border: none;
+}
+.btn4:hover{
+    animation: gradient 3s ease infinite;
+}
+@keyframes gradient{
+    0%{
+    background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
